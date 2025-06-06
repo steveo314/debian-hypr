@@ -151,10 +151,17 @@ meson setup build
 meson compile -C build
 meson install -C build
 
-git clone https://github.com/steveo314/debian-hypr.git
-cd debian-hypr
-mkdir -p ~/.config/hypr
-cp hyprland.conf ~/.config/hypr
+echo "Do you need a basic hyprland config?"
+echo "If not, you will have to add hyprpanel to your 'exec' section in your config"
+echo "Enter y or n:"
+read response
+
+if [[response eq 'y']]; then
+    git clone https://github.com/steveo314/debian-hypr.git
+    cd debian-hypr
+    mkdir -p ~/.config/hypr
+    cp hyprland.conf ~/.config/hypr
+fi
 
 echo "Please reboot and give Hyprland a go!"
 echo "Thank you for using my install script!"
