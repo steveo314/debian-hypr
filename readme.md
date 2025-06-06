@@ -1,15 +1,14 @@
 <div class="row">
     <style>
         .column {
-        float: left;
-        width: 33.33%;
-        padding: 5px;
+            float: left;
+            width: 33.33%;
+            padding: 5px;
         }
-
         .row::after {
-        content: "";
-        clear: both;
-        display: table;
+            content: "";
+            clear: both;
+            display: table;
         }
     </style>
     <div class="column">
