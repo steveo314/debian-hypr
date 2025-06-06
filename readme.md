@@ -16,3 +16,8 @@ install script. Proceed at your own risk.
 
 You may have to install sddm for Hyprland to load in correctly.
 If not you will have to launch Hyprland from a tty.
+
+Unless you are using the Fish shell, you can run the script
+this way:
+
+`sh <(curl -L https://raw.githubusercontent.com/steveo314/debian-hypr/refs/heads/main/hypr_build.sh)`
