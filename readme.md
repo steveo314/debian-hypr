@@ -1,8 +1,8 @@
 <p align="left">
     <img src=https://upload.wikimedia.org/wikipedia/commons/0/04/Debian_logo.png" width="32" height="32"/>
 </p>
-<p align="left">
-    <img src=https://upload.wikimedia.org/wikipedia/commons/9/9e/UbuntuCoF.svg" width="32" height="32">
+<p align="right">
+    <img src=https://upload.wikimedia.org/wikipedia/commons/9/9e/UbuntuCoF.svg" width="32" height="32"/>
 </p>
 
 Welcome to steveo314's hyprland with hyprpanel install
