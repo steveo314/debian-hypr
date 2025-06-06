@@ -1,7 +1,11 @@
-<img src="https://github.com/steveo314/debian-hypr/blob/main/images/Debian_logo.png" width="64" height="64"/>
-<img src="https://github.com/steveo314/debian-hypr/blob/main/images/UbuntuCoF.svg" width="64" height="64"/>
-<br /><br />
-
+<div class="row">
+    <div class="column">
+        <img src="https://github.com/steveo314/debian-hypr/blob/main/images/Debian_logo.png" width="64" height="64"/>
+    </div>
+    <div class="column">
+        <img src="https://github.com/steveo314/debian-hypr/blob/main/images/UbuntuCoF.svg" width="64" height="64"/>
+    </div>
+</div>
 Welcome to steveo314's hyprland with hyprpanel install
 script for Debian Sid.
 
