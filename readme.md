@@ -1,4 +1,17 @@
 <div class="row">
+    <style>
+        .column {
+        float: left;
+        width: 33.33%;
+        padding: 5px;
+        }
+
+        .row::after {
+        content: "";
+        clear: both;
+        display: table;
+        }
+    </style>
     <div class="column">
         <img src="https://github.com/steveo314/debian-hypr/blob/main/images/Debian_logo.png" width="64" height="64"/>
     </div>
@@ -6,6 +19,8 @@
         <img src="https://github.com/steveo314/debian-hypr/blob/main/images/UbuntuCoF.svg" width="64" height="64"/>
     </div>
 </div>
+
+
 Welcome to steveo314's hyprland with hyprpanel install
 script for Debian Sid.
 
