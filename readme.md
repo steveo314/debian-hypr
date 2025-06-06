@@ -1,29 +1,3 @@
-<svg fill="none" viewBox="0 0 600 300" width="600" height="300" xmlns="http://www.w3.org/2000/svg">
-    <foreignObject width="100%" height="100%">
-        <div class="row">
-            <style>
-                .column {
-                    float: left;
-                    width: 33.33%;
-                    padding: 5px;
-                }
-                .row::after {
-                    content: "";
-                    clear: both;
-                    display: table;
-                }
-            </style>
-            <div class="column">
-                <img src="https://github.com/steveo314/debian-hypr/blob/main/images/Debian_logo.png" width="64" height="64"/>
-            </div>
-            <div class="column">
-                <img src="https://github.com/steveo314/debian-hypr/blob/main/images/UbuntuCoF.svg" width="64" height="64"/>
-            </div>
-        </div>
-    </foreignObject>
-</svg>
-
-
 Welcome to steveo314's hyprland with hyprpanel install
 script for Debian Sid.
 
