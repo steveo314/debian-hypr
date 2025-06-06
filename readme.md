@@ -13,3 +13,6 @@ repos.
 
 There are still some tweaks that need to be done with this
 install script. Proceed at your own risk.
+
+You may have to install sddm for Hyprland to load in correctly.
+If not you will have to launch Hyprland from a tty.
